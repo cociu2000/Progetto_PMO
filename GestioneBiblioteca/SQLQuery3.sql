@@ -1,0 +1,1 @@
+﻿SELECT idLibro,nomeLibro,nomeGenere AS GenereLibro FROM Genere,Libro WHERE Libro.idGenere=Genere.idGenere

@@ -1,0 +1,1 @@
+﻿SELECT idLibro,titoloLibro,dataUscita,numeroCopie,nomeGenere FROM Libro,Genere Where Libro.idGenere=Genere.idGenere
